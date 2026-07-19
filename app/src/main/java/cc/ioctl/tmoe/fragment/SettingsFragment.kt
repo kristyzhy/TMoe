@@ -63,13 +63,19 @@ class SettingsFragment : BaseHierarchyFragment() {
                 }
             )
             functionSwitch(
-                HistoricalNewsOption, "HistoricalNewsOption", R.string.HistoricalNewsOption
+                HistoricalNewsOption, "HistoricalNewsOption", R.string.HistoricalNewsOption,
+                descProvider = {
+                    LocaleController.getString("HistoricalNewsOptionDesc", R.string.HistoricalNewsOptionDesc)
+                }
             )
             functionSwitch(
                 ProhibitChannelSwitching, "ProhibitChannelSwitching", R.string.ProhibitChannelSwitching
             )
             functionSwitch(
                 UseSystemEmoji, "UseSystemEmoji", R.string.UseSystemEmoji
+            )
+            functionSwitch(
+                DisableQuickReaction, "DisableQuickReaction", R.string.DisableQuickReaction
             )
             functionSwitch(
                 ProhibitEnableReactions, "ProhibitEnableReactions", R.string.ProhibitEnableReactions
@@ -131,6 +137,9 @@ class SettingsFragment : BaseHierarchyFragment() {
             functionSwitch(
                 ShowIdInProfile, "ShowIdInProfile", R.string.ShowIdInProfile,
                 "ShowIdInProfileDesc", R.string.ShowIdInProfileDesc
+            )
+            functionSwitch(
+                MutualContactsBtnOption, "MutualContact", R.string.MutualContact
             )
         }
         category("LostMsgMitigation", R.string.LostMsgMitigation) {

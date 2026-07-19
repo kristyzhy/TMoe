@@ -27,6 +27,7 @@
     <string name="ProhibitSpoilers">禁用剧透</string>
     <string name="ProhibitSpoilersD">剧透内容将默认显示</string>
     <string name="HistoricalNewsOption">历史消息</string>
+    <string name="HistoricalNewsOptionDesc">打开此选项会同时启用复读功能</string>
     <string name="ProhibitChatGreetings">禁用问候贴纸</string>
     <string name="HidePhoneNumber">隐藏电话号码</string>
     <string name="AddSubItemChannel">打开频道</string>
@@ -65,6 +66,7 @@
     <string name="FuckTrackingHook">禁用个性化广告推荐</string>
     <string name="DisableInstantCamera">禁用即时相机</string>
     <string name="HideServiceStories">隐藏“服务通知”的动态</string>
+    <string name="DisableQuickReaction">禁用快速表情回应</string>
     <string name="ShowIdInProfile">资料页显示 ID</string>
     <string name="GroupOrChannelId">群聊 / 频道 ID</string>
     <string name="UserId">用户 ID</string>
@@ -91,4 +93,5 @@
     <string name="BuildVarsLogsEnabledDesc">参考 BuildVars.java 中的 LOGS_ENABLED（立即生效，重启失效）</string>
     <string name="DialogMsg_ConfirmDumpChannelMembers">拉取群成员列表？</string>
     <string name="FuckTrackingHookDesc">如果您点击Telegram提供的广告，他们会收集数据作为个性化广告的基础。此功能用于屏蔽个性化广告。</string>
+    <string name="MutualContact">双向联系人</string>
 </resources>

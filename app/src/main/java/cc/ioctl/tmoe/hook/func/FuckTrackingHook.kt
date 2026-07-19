@@ -13,8 +13,7 @@ object FuckTrackingHook : CommonDynamicHook() {
         if (!isEnabled) return@tryOrLogFalse
 
         findMethod(loadClass("org.telegram.ui.ChatActivity")) {
-            name == "logSponsoredClicked" &&
-                    parameterTypes.size == 1
+            name == "logSponsoredClicked"
         }.hookReturnConstant(null)
     }
 }
